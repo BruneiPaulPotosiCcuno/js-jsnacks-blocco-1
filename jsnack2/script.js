@@ -10,5 +10,11 @@ for (let i = 0; i < 5; i++) {
     Numbers.push(userNumbers);
 }
 
-//Stampo la somma di tutti i numeri
+//somma di tutti i numeri
+let sum = 0
+for (let i = 0; i < 5; i++) {
+    const element = Numbers [i];
+    sum += Numbers[i]
+}
 
+console.log(sum);

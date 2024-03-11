@@ -14,3 +14,6 @@ for (let i = 0; i < 6; i++) {
     numbers.push(userNumber);
     }
 }
+
+//stampo i dispari nel array
+console.log(numbers);

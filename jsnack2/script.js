@@ -3,9 +3,12 @@
 
 //Il software deve chiedere per 5 volte all’utente
 
-let userNumbers = []
+let Numbers = [];
 
 for (let i = 0; i < 5; i++) {
     const userNumbers = parseInt(prompt("Inserisce i 5 numeri"));
-    console.log(userNumbers);
+    Numbers.push(userNumbers);
 }
+
+//Stampo la somma di tutti i numeri
+

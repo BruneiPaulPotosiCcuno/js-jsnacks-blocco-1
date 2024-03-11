@@ -5,7 +5,12 @@
     //Creo un ciclo
     for (let i = 0; i < 5; i++) {
         const userNumbers = prompt('Inserisce 5 numeri:');
-        console.log(userNumbers);
+        if (numbers.includes(userNumbers) === false) {
+            numbers.push(userNumbers)
+        }
+        
     }
+    //Console Log per vedere l'Array 
+    console.log(numbers);
 
 

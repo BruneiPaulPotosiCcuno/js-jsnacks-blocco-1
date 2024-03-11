@@ -4,7 +4,7 @@
     let numbers = [];
     //Creo un ciclo
     for (let i = 0; i < 5; i++) {
-        const userNumbers = prompt('Inserisce 5 numeri:');
+        const userNumbers = parseInt(prompt("Inserisce"));
         if (numbers.includes(userNumbers) === false) {
             numbers.push(userNumbers)
         }
